@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D0267FE181718E0005BFEDC /* FINAccntDetailsVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0267FD181718E0005BFEDC /* FINAccntDetailsVwCtrl.m */; };
+		7D0C4A5A1810200100A5CE56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0C4A591810200100A5CE56 /* Foundation.framework */; };
+		7D0C4A5C1810200200A5CE56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0C4A5B1810200200A5CE56 /* CoreGraphics.framework */; };
+		7D0C4A5E1810200200A5CE56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0C4A5D1810200200A5CE56 /* UIKit.framework */; };
+		7D0C4A641810200200A5CE56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C4A621810200200A5CE56 /* InfoPlist.strings */; };
+		7D0C4A661810200200A5CE56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4A651810200200A5CE56 /* main.m */; };
+		7D0C4A6A1810200200A5CE56 /* FINAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4A691810200200A5CE56 /* FINAppDelegate.m */; };
+		7D0C4A6C1810200200A5CE56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C4A6B1810200200A5CE56 /* Images.xcassets */; };
+		7D0C4A731810200200A5CE56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0C4A721810200200A5CE56 /* XCTest.framework */; };
+		7D0C4A741810200200A5CE56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0C4A591810200100A5CE56 /* Foundation.framework */; };
+		7D0C4A751810200200A5CE56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0C4A5D1810200200A5CE56 /* UIKit.framework */; };
+		7D0C4A7D1810200200A5CE56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D0C4A7B1810200200A5CE56 /* InfoPlist.strings */; };
+		7D0C4A7F1810200200A5CE56 /* FinanzasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4A7E1810200200A5CE56 /* FinanzasTests.m */; };
+		7D0C4A90181033C000A5CE56 /* FINMyAccountsVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4A8F181033C000A5CE56 /* FINMyAccountsVwCtrl.m */; };
+		7D0C4A931810397F00A5CE56 /* FINNewMoveVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4A921810397F00A5CE56 /* FINNewMoveVwCtrl.m */; };
+		7D0C4A961810399400A5CE56 /* FINNewMoveVw.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4A951810399400A5CE56 /* FINNewMoveVw.m */; };
+		7D0C4A9918103CF900A5CE56 /* FINSettingsVw.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4A9818103CF900A5CE56 /* FINSettingsVw.m */; };
+		7D0C4A9C18103D1200A5CE56 /* FINSettingsVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4A9B18103D1200A5CE56 /* FINSettingsVwCtrl.m */; };
+		7D0C4AA518104DD500A5CE56 /* FINMoveDetailsVw.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4AA418104DD500A5CE56 /* FINMoveDetailsVw.m */; };
+		7D0C4AA818104DFE00A5CE56 /* FINMoveDetailsVwCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4AA718104DFE00A5CE56 /* FINMoveDetailsVwCtrl.m */; };
+		7D0C4AAB18106D9700A5CE56 /* FINPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4AAA18106D9700A5CE56 /* FINPersistence.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D0C4A761810200200A5CE56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D0C4A4E1810200100A5CE56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D0C4A551810200100A5CE56;
+			remoteInfo = Finanzas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D0267FC181718E0005BFEDC /* FINAccntDetailsVwCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINAccntDetailsVwCtrl.h; sourceTree = "<group>"; };
+		7D0267FD181718E0005BFEDC /* FINAccntDetailsVwCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINAccntDetailsVwCtrl.m; sourceTree = "<group>"; };
+		7D0C4A561810200100A5CE56 /* Finanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0C4A591810200100A5CE56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D0C4A5B1810200200A5CE56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D0C4A5D1810200200A5CE56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D0C4A611810200200A5CE56 /* Finanzas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Finanzas-Info.plist"; sourceTree = "<group>"; };
+		7D0C4A631810200200A5CE56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D0C4A651810200200A5CE56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D0C4A671810200200A5CE56 /* Finanzas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Finanzas-Prefix.pch"; sourceTree = "<group>"; };
+		7D0C4A681810200200A5CE56 /* FINAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FINAppDelegate.h; sourceTree = "<group>"; };
+		7D0C4A691810200200A5CE56 /* FINAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FINAppDelegate.m; sourceTree = "<group>"; };
+		7D0C4A6B1810200200A5CE56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7D0C4A711810200200A5CE56 /* FinanzasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinanzasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0C4A721810200200A5CE56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7D0C4A7A1810200200A5CE56 /* FinanzasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinanzasTests-Info.plist"; sourceTree = "<group>"; };
+		7D0C4A7C1810200200A5CE56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D0C4A7E1810200200A5CE56 /* FinanzasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinanzasTests.m; sourceTree = "<group>"; };
+		7D0C4A8E181033C000A5CE56 /* FINMyAccountsVwCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINMyAccountsVwCtrl.h; sourceTree = "<group>"; };
+		7D0C4A8F181033C000A5CE56 /* FINMyAccountsVwCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINMyAccountsVwCtrl.m; sourceTree = "<group>"; };
+		7D0C4A911810397F00A5CE56 /* FINNewMoveVwCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINNewMoveVwCtrl.h; sourceTree = "<group>"; };
+		7D0C4A921810397F00A5CE56 /* FINNewMoveVwCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINNewMoveVwCtrl.m; sourceTree = "<group>"; };
+		7D0C4A941810399400A5CE56 /* FINNewMoveVw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINNewMoveVw.h; sourceTree = "<group>"; };
+		7D0C4A951810399400A5CE56 /* FINNewMoveVw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINNewMoveVw.m; sourceTree = "<group>"; };
+		7D0C4A9718103CF900A5CE56 /* FINSettingsVw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINSettingsVw.h; sourceTree = "<group>"; };
+		7D0C4A9818103CF900A5CE56 /* FINSettingsVw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINSettingsVw.m; sourceTree = "<group>"; };
+		7D0C4A9A18103D1200A5CE56 /* FINSettingsVwCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINSettingsVwCtrl.h; sourceTree = "<group>"; };
+		7D0C4A9B18103D1200A5CE56 /* FINSettingsVwCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINSettingsVwCtrl.m; sourceTree = "<group>"; };
+		7D0C4AA318104DD500A5CE56 /* FINMoveDetailsVw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINMoveDetailsVw.h; sourceTree = "<group>"; };
+		7D0C4AA418104DD500A5CE56 /* FINMoveDetailsVw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINMoveDetailsVw.m; sourceTree = "<group>"; };
+		7D0C4AA618104DFE00A5CE56 /* FINMoveDetailsVwCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINMoveDetailsVwCtrl.h; sourceTree = "<group>"; };
+		7D0C4AA718104DFE00A5CE56 /* FINMoveDetailsVwCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINMoveDetailsVwCtrl.m; sourceTree = "<group>"; };
+		7D0C4AA918106D9700A5CE56 /* FINPersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FINPersistence.h; sourceTree = "<group>"; };
+		7D0C4AAA18106D9700A5CE56 /* FINPersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FINPersistence.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D0C4A531810200100A5CE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0C4A5C1810200200A5CE56 /* CoreGraphics.framework in Frameworks */,
+				7D0C4A5E1810200200A5CE56 /* UIKit.framework in Frameworks */,
+				7D0C4A5A1810200100A5CE56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0C4A6E1810200200A5CE56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0C4A731810200200A5CE56 /* XCTest.framework in Frameworks */,
+				7D0C4A751810200200A5CE56 /* UIKit.framework in Frameworks */,
+				7D0C4A741810200200A5CE56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D0C4A4D1810200100A5CE56 = {
+			isa = PBXGroup;
+			children = (
+				7D0C4A5F1810200200A5CE56 /* Finanzas */,
+				7D0C4A781810200200A5CE56 /* FinanzasTests */,
+				7D0C4A581810200100A5CE56 /* Frameworks */,
+				7D0C4A571810200100A5CE56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D0C4A571810200100A5CE56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D0C4A561810200100A5CE56 /* Finanzas.app */,
+				7D0C4A711810200200A5CE56 /* FinanzasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D0C4A581810200100A5CE56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D0C4A591810200100A5CE56 /* Foundation.framework */,
+				7D0C4A5B1810200200A5CE56 /* CoreGraphics.framework */,
+				7D0C4A5D1810200200A5CE56 /* UIKit.framework */,
+				7D0C4A721810200200A5CE56 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D0C4A5F1810200200A5CE56 /* Finanzas */ = {
+			isa = PBXGroup;
+			children = (
+				7D0C4A681810200200A5CE56 /* FINAppDelegate.h */,
+				7D0C4A691810200200A5CE56 /* FINAppDelegate.m */,
+				7D0C4A941810399400A5CE56 /* FINNewMoveVw.h */,
+				7D0C4A951810399400A5CE56 /* FINNewMoveVw.m */,
+				7D0C4A911810397F00A5CE56 /* FINNewMoveVwCtrl.h */,
+				7D0C4A921810397F00A5CE56 /* FINNewMoveVwCtrl.m */,
+				7D0C4A8E181033C000A5CE56 /* FINMyAccountsVwCtrl.h */,
+				7D0C4A8F181033C000A5CE56 /* FINMyAccountsVwCtrl.m */,
+				7D0C4A9718103CF900A5CE56 /* FINSettingsVw.h */,
+				7D0C4A9818103CF900A5CE56 /* FINSettingsVw.m */,
+				7D0C4A9A18103D1200A5CE56 /* FINSettingsVwCtrl.h */,
+				7D0C4A9B18103D1200A5CE56 /* FINSettingsVwCtrl.m */,
+				7D0267FC181718E0005BFEDC /* FINAccntDetailsVwCtrl.h */,
+				7D0267FD181718E0005BFEDC /* FINAccntDetailsVwCtrl.m */,
+				7D0C4AA318104DD500A5CE56 /* FINMoveDetailsVw.h */,
+				7D0C4AA418104DD500A5CE56 /* FINMoveDetailsVw.m */,
+				7D0C4AA618104DFE00A5CE56 /* FINMoveDetailsVwCtrl.h */,
+				7D0C4AA718104DFE00A5CE56 /* FINMoveDetailsVwCtrl.m */,
+				7D0C4AA918106D9700A5CE56 /* FINPersistence.h */,
+				7D0C4AAA18106D9700A5CE56 /* FINPersistence.m */,
+				7D0C4A6B1810200200A5CE56 /* Images.xcassets */,
+				7D0C4A601810200200A5CE56 /* Supporting Files */,
+			);
+			path = Finanzas;
+			sourceTree = "<group>";
+		};
+		7D0C4A601810200200A5CE56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D0C4A611810200200A5CE56 /* Finanzas-Info.plist */,
+				7D0C4A621810200200A5CE56 /* InfoPlist.strings */,
+				7D0C4A651810200200A5CE56 /* main.m */,
+				7D0C4A671810200200A5CE56 /* Finanzas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D0C4A781810200200A5CE56 /* FinanzasTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D0C4A7E1810200200A5CE56 /* FinanzasTests.m */,
+				7D0C4A791810200200A5CE56 /* Supporting Files */,
+			);
+			path = FinanzasTests;
+			sourceTree = "<group>";
+		};
+		7D0C4A791810200200A5CE56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D0C4A7A1810200200A5CE56 /* FinanzasTests-Info.plist */,
+				7D0C4A7B1810200200A5CE56 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D0C4A551810200100A5CE56 /* Finanzas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0C4A821810200200A5CE56 /* Build configuration list for PBXNativeTarget "Finanzas" */;
+			buildPhases = (
+				7D0C4A521810200100A5CE56 /* Sources */,
+				7D0C4A531810200100A5CE56 /* Frameworks */,
+				7D0C4A541810200100A5CE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Finanzas;
+			productName = Finanzas;
+			productReference = 7D0C4A561810200100A5CE56 /* Finanzas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D0C4A701810200200A5CE56 /* FinanzasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0C4A851810200200A5CE56 /* Build configuration list for PBXNativeTarget "FinanzasTests" */;
+			buildPhases = (
+				7D0C4A6D1810200200A5CE56 /* Sources */,
+				7D0C4A6E1810200200A5CE56 /* Frameworks */,
+				7D0C4A6F1810200200A5CE56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D0C4A771810200200A5CE56 /* PBXTargetDependency */,
+			);
+			name = FinanzasTests;
+			productName = FinanzasTests;
+			productReference = 7D0C4A711810200200A5CE56 /* FinanzasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D0C4A4E1810200100A5CE56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIN;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = juancarlos;
+				TargetAttributes = {
+					7D0C4A551810200100A5CE56 = {
+						DevelopmentTeam = MBWRF4L5Z7;
+					};
+					7D0C4A701810200200A5CE56 = {
+						TestTargetID = 7D0C4A551810200100A5CE56;
+					};
+				};
+			};
+			buildConfigurationList = 7D0C4A511810200100A5CE56 /* Build configuration list for PBXProject "Finanzas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D0C4A4D1810200100A5CE56;
+			productRefGroup = 7D0C4A571810200100A5CE56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D0C4A551810200100A5CE56 /* Finanzas */,
+				7D0C4A701810200200A5CE56 /* FinanzasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D0C4A541810200100A5CE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0C4A641810200200A5CE56 /* InfoPlist.strings in Resources */,
+				7D0C4A6C1810200200A5CE56 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0C4A6F1810200200A5CE56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0C4A7D1810200200A5CE56 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D0C4A521810200100A5CE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0C4A6A1810200200A5CE56 /* FINAppDelegate.m in Sources */,
+				7D0C4A9C18103D1200A5CE56 /* FINSettingsVwCtrl.m in Sources */,
+				7D0C4A931810397F00A5CE56 /* FINNewMoveVwCtrl.m in Sources */,
+				7D0C4A661810200200A5CE56 /* main.m in Sources */,
+				7D0267FE181718E0005BFEDC /* FINAccntDetailsVwCtrl.m in Sources */,
+				7D0C4AAB18106D9700A5CE56 /* FINPersistence.m in Sources */,
+				7D0C4A90181033C000A5CE56 /* FINMyAccountsVwCtrl.m in Sources */,
+				7D0C4A961810399400A5CE56 /* FINNewMoveVw.m in Sources */,
+				7D0C4AA818104DFE00A5CE56 /* FINMoveDetailsVwCtrl.m in Sources */,
+				7D0C4AA518104DD500A5CE56 /* FINMoveDetailsVw.m in Sources */,
+				7D0C4A9918103CF900A5CE56 /* FINSettingsVw.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D0C4A6D1810200200A5CE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0C4A7F1810200200A5CE56 /* FinanzasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D0C4A771810200200A5CE56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D0C4A551810200100A5CE56 /* Finanzas */;
+			targetProxy = 7D0C4A761810200200A5CE56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D0C4A621810200200A5CE56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D0C4A631810200200A5CE56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D0C4A7B1810200200A5CE56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D0C4A7C1810200200A5CE56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D0C4A801810200200A5CE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D0C4A811810200200A5CE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D0C4A831810200200A5CE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finanzas/Finanzas-Prefix.pch";
+				INFOPLIST_FILE = "Finanzas/Finanzas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D0C4A841810200200A5CE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finanzas/Finanzas-Prefix.pch";
+				INFOPLIST_FILE = "Finanzas/Finanzas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7D0C4A861810200200A5CE56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Finanzas.app/Finanzas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finanzas/Finanzas-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FinanzasTests/FinanzasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7D0C4A871810200200A5CE56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Finanzas.app/Finanzas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Finanzas/Finanzas-Prefix.pch";
+				INFOPLIST_FILE = "FinanzasTests/FinanzasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D0C4A511810200100A5CE56 /* Build configuration list for PBXProject "Finanzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0C4A801810200200A5CE56 /* Debug */,
+				7D0C4A811810200200A5CE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0C4A821810200200A5CE56 /* Build configuration list for PBXNativeTarget "Finanzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0C4A831810200200A5CE56 /* Debug */,
+				7D0C4A841810200200A5CE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0C4A851810200200A5CE56 /* Build configuration list for PBXNativeTarget "FinanzasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0C4A861810200200A5CE56 /* Debug */,
+				7D0C4A871810200200A5CE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D0C4A4E1810200100A5CE56 /* Project object */;
+}
