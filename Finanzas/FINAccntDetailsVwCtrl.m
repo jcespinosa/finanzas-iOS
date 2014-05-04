@@ -60,7 +60,6 @@
 }
 
 
-
 - (void)deleteAccount
 {
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Eliminar cuenta"
@@ -72,6 +71,7 @@
     //[alertView setAlertViewStyle:UIAlertViewStylePlainTextInput];
     [alertView show];
 }
+
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
